@@ -9,4 +9,9 @@ export class DogService {
     public introduce(): string {
         return 'My name is Buddy, I am a dog!';
     }
+
+    public modifyDetails(): string {
+
+        return 'Dog details modified!';
+    }
 }
